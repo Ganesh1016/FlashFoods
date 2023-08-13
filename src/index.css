@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #272829;
+    height: fit-content;
+    /* color: #FDE5EC; */
+}
+
+/* Change the color of the scrollbar track (the area behind the scrollbar thumb) */
+::-webkit-scrollbar {
+    width: 12px;
+    border-radius: 10px;
+    /* Adjust the width as needed */
+}
+
+/* Change the color of the scrollbar thumb (the draggable part of the scrollbar) */
+::-webkit-scrollbar-thumb {
+    background-color: #D8D9DA;
+}
+
+/* Change the color of the scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #61677A;
+}
+
+/* Change the color of the scrollbar track when the scrollbar thumb is being dragged */
+::-webkit-scrollbar-thumb:active {
+    background-color: #FFC6AC;
+}
